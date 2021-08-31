@@ -1,2 +1,2 @@
-# lvgd.github.io
-Repository for Guodong Lv's academic research website.
+# GuodongLYU.github.io
+Repository for Dr. Guodong Lyu's academic website.
