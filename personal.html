@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.0/css/academicons.min.css">
 
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -23,11 +24,28 @@
 
       ga('create', 'UA-29643011-3', 'auto');
       ga('send', 'pageview');
+
+      img{
+          max-width: 50%;
+          cursor: pointer;
+          border-radius: 5px;
+      }
+      .photo-thumbs img{
+          margin: 10px 0 5px;
+      }
+      .row{
+          margin-bottom: 20px;
+      }
     </script>
+
+
 
     <!-- For all browsers -->
     <link rel="stylesheet" href="assets/css/academicons.min.css"/>
     <link rel="stylesheet" href="assets/css/academicons.css"/>
+    <link rel="stylesheet" href="css/gallery.css">
+
+
 
   </head>
   <body>
@@ -71,8 +89,9 @@
       &bull; The 11th BNU <i>Top-1</i> Popular Undergraduate Award, China, 2010 <br>
       &bull; The 10th BNU <i>Li Yun</i> Outstanding Undergraduate, China, 2010 <br>
       &bull; Trip-A Student in Beijing City, China, 2009-2010 <br>
-      <img src="material/Life-Speech.jpg" height="340" width="463"></h3>
+      <img src="material/Life-Speech.jpg" height="250" width="370"><br>
       (I was giving a graduation speech in BNU, 2012)
+      <br>
 
       <br/>
       <hr>
@@ -90,6 +109,17 @@
       <hr>
       <h2>Miscellaneous</h2>
 
+      <div class="row">
+          <div class="col-md-12">
+              <p>Basic example using the same large image for both the thumbnails and the viewer.</p>
+          </div>
+          <!-- Start gallery markup -->
+          <div class="photo-thumbs">
+                  <img src="material/Life-Aerobics.jpg" height="150" width="225" data-caption="Aerobics Performance"/>
+                  <img src="material/Life-Speech.jpg" height="150" width="225" data-caption="Speech" />
+          </div>
+          <!-- end gallery markup -->
+      </div
 
 
       </section>
@@ -98,5 +128,8 @@
       </footer> -->
     </div>
     <script src="javascripts/scale.fix.js"></script>
+    <script src="javascripts/jquery-2.0.3.min.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="javascripts/gallery.js"></script>
   </body>
 </html>
