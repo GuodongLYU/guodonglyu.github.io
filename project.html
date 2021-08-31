@@ -103,7 +103,7 @@
 
         <a style="margin:0; font-size:100%; color:black">Timeline of the locker pilot program</a> <br>
 
-        <img src="material/locker_timeline.jpg" height="190" width="463">
+        <img src="material/locker_timeline.jpg" height="160" width="463">
 
         <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="">Research Output</a> <br>
         <a style="margin:0; font-size:100%; color:black">Federated LA Network: Customer Adoption</a> <br>
@@ -115,11 +115,12 @@
         <a style="margin:0; font-size:100%; color:black">Federated LA Network: Sustainability</a> <br>
         <a style="margin:0; font-size:100%; color:grey">“Installation of locker near public housing block reduces the volume of parcel delivery to CBD”</a> <br>
 
-        <img src="material/locker_02.jpg" height="180" width="463"> <br> <input type="button" onclick="location.href='https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3471166';" value="Paper" />
+        <img src="material/locker_02.jpg" height="160" width="463"> <br> <input type="button" onclick="location.href='https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3471166';" value="Paper" />
 
         <p style="margin:0;" }><p > <a style="margin:0; font-size:100%; font-weight:bold" href="">Dashboard</a> <br>
         <img src="material/locker_03.jpg" height="420" width="463"><br>
         <input type="button" onclick="location.href='material/05-dashboard.pdf';" value="Dashboard" />
+
 
         <br/>
 
@@ -131,5 +132,16 @@
       </footer> -->
     </div>
     <script src="javascripts/scale.fix.js"></script>
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function(){
+            this.classList.toggle("active");
+            this.parentNode.nextElementSibling.classList.toggle("show");
+      }
+    }
+    </script>
   </body>
 </html>
